@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+
+    <div class="background-blobs">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
+    <header>
+        <h1>Image Search Engine</h1>
+        <p class="subtitle">Discover the world through images</p>
+    </header>
+
+    <main>
+        <form class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="searchInput" placeholder="Search for anything... nature, technology, space...">
+            <button id="searchBtn">Search</button>
+        </form>
+
+        <div id="image-results" class="image-gallery">
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=2940&auto=format&fit=crop" alt="">
+                <div class="image-info">
+                    <a href="#" target="_blank">View HD Image</a>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?q=80&w=2848&auto=format&fit=crop" alt="">
+                <div class="image-info">
+                    <a href="#" target="_blank">View HD Image</a>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1682933572111-41d471d63656?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div class="image-info">
+                    <a href="#" target="_blank">View HD Image</a>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=2942&auto=format&fit=crop" alt="">
+                <div class="image-info">
+                    <a href="#" target="_blank">View HD Image</a>
+                </div>
+            </div>
+        </div>
+
+        <button id="show-more-btn" class="hidden">Load More</button>
+    </main>
+
+    <footer>
+        <p>© 2025 Kailash Sharma. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
